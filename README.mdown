@@ -1,0 +1,31 @@
+# About CrashCatcher - Version 1.0
+
+CrashCatcher is fully deployed in WARP Plus in the App Store and is providing valuable feedback from users.
+
+## Features
+* Built-in and fully functional store view controller
+* Configurable using plist files (no code changes required to the library itself)
+* Supports consumable, nonconsumables, and autorenewables
+* Supports consumable families to enable multiple product ids to manipulate the same resource
+* Delegate methods for all of the major changes you might want to be notified about
+* Ability to wipe local data clean (for debug and for dealing with possible corruption)
+* Testing in simulator using the embedded SimStoreKit (not including AutoRenewables)
+* Encrypted family data storage for purchase quantities
+
+For some more information, have a look at:
+http://www.anystonetech.com/blog/2011/03/24/introducing-the-anystone-store-kit/
+
+## Version History
+### Version 1.0
+* Initial release
+
+## License
+
+This project is licensed under the MIT licence. This basically means you're free to do what you want with the code.
+http://creativecommons.org/licenses/MIT/
+
+If you do make use of this code, please just let me know. If you improve the code, by all means fork and request a pull.
+
+
+# Usage
+Run the demo, flip the switch to simulate a crash (in correct shutdown). Relaunch the app and observe.
