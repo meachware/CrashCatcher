@@ -2,15 +2,8 @@
 
 CrashCatcher is fully deployed in WARP Plus in the App Store and is providing valuable feedback from users.
 
-## Features
-* Built-in and fully functional store view controller
-* Configurable using plist files (no code changes required to the library itself)
-* Supports consumable, nonconsumables, and autorenewables
-* Supports consumable families to enable multiple product ids to manipulate the same resource
-* Delegate methods for all of the major changes you might want to be notified about
-* Ability to wipe local data clean (for debug and for dealing with possible corruption)
-* Testing in simulator using the embedded SimStoreKit (not including AutoRenewables)
-* Encrypted family data storage for purchase quantities
+## Notice
+* This is designed for MULTI-TASKING DEVICES ONLY!
 
 For some more information, have a look at:
 http://meachware.blogspot.com/2011/07/crashcatcher.html
@@ -21,7 +14,7 @@ http://meachware.blogspot.com/2011/07/crashcatcher.html
 
 ## License
 
-This project is licensed under the MIT licence. This basically means you're free to do what you want with the code.
+This project is licensed under the MIT license. This basically means you're free to do what you want with the code.
 http://creativecommons.org/licenses/MIT/
 
 If you do make use of this code, please just let me know. If you improve the code, by all means fork and request a pull.
