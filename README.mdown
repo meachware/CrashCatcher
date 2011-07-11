@@ -13,7 +13,7 @@ CrashCatcher is fully deployed in WARP Plus in the App Store and is providing va
 * Encrypted family data storage for purchase quantities
 
 For some more information, have a look at:
-http://www.anystonetech.com/blog/2011/03/24/introducing-the-anystone-store-kit/
+http://meachware.blogspot.com/2011/07/crashcatcher.html
 
 ## Version History
 ### Version 1.0
