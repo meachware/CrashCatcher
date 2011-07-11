@@ -8,6 +8,9 @@ CrashCatcher is fully deployed in WARP Plus in the App Store and is providing va
 For some more information, have a look at:
 http://meachware.blogspot.com/2011/07/crashcatcher.html
 
+## Image
+![Screenshot](http://1.bp.blogspot.com/-tpZnZocQ-vU/ThsYHW8mEmI/AAAAAAAAAF4/6rTqYNhIquE/s1600/CCImage.png "Example")
+
 ## Version History
 ### Version 1.0
 * Initial release
