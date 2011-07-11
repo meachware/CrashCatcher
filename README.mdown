@@ -24,4 +24,4 @@ If you do make use of this code, please just let me know. If you improve the cod
 
 
 # Usage
-Run the demo, flip the switch to simulate a crash (in correct shutdown). Relaunch the app and observe.
+Run the demo, flip the switch to simulate a crash (incorrect shutdown). Relaunch the app and observe.
