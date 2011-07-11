@@ -1,0 +1,352 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		379236F013C883A000C68CF8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 379236EF13C883A000C68CF8 /* UIKit.framework */; };
+		379236F213C883A000C68CF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 379236F113C883A000C68CF8 /* Foundation.framework */; };
+		379236F413C883A000C68CF8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 379236F313C883A000C68CF8 /* CoreGraphics.framework */; };
+		379236FA13C883A000C68CF8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 379236F813C883A000C68CF8 /* InfoPlist.strings */; };
+		379236FD13C883A000C68CF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 379236FC13C883A000C68CF8 /* main.m */; };
+		3792370013C883A000C68CF8 /* CrashCatcherAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 379236FF13C883A000C68CF8 /* CrashCatcherAppDelegate.m */; };
+		3792370313C883A000C68CF8 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3792370113C883A000C68CF8 /* MainWindow.xib */; };
+		3792370613C883A000C68CF8 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3792370513C883A000C68CF8 /* MainViewController.m */; };
+		3792370813C883A000C68CF8 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3792370713C883A000C68CF8 /* MainView.xib */; };
+		3792370B13C883A000C68CF8 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3792370A13C883A000C68CF8 /* FlipsideViewController.m */; };
+		3792370D13C883A000C68CF8 /* FlipsideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3792370C13C883A000C68CF8 /* FlipsideView.xib */; };
+		3792371913CB34D200C68CF8 /* DevLog.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3792371413CB34D200C68CF8 /* DevLog.xib */; };
+		3792371A13CB34D200C68CF8 /* DevLogForm-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3792371513CB34D200C68CF8 /* DevLogForm-iPad.xib */; };
+		3792371C13CB34D200C68CF8 /* DevLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3792371813CB34D200C68CF8 /* DevLogViewController.m */; };
+		3792372013CB3A9300C68CF8 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3792371F13CB3A9300C68CF8 /* MessageUI.framework */; };
+		3792372913CB402300C68CF8 /* 512Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3792372213CB402300C68CF8 /* 512Icon.png */; };
+		3792372A13CB402300C68CF8 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 3792372313CB402300C68CF8 /* Icon-72.png */; };
+		3792372B13CB402300C68CF8 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 3792372413CB402300C68CF8 /* Icon-Small-50.png */; };
+		3792372C13CB402300C68CF8 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 3792372513CB402300C68CF8 /* Icon-Small.png */; };
+		3792372D13CB402300C68CF8 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3792372613CB402300C68CF8 /* Icon-Small@2x.png */; };
+		3792372E13CB402300C68CF8 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3792372713CB402300C68CF8 /* Icon.png */; };
+		3792372F13CB402300C68CF8 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3792372813CB402300C68CF8 /* Icon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		379236EB13C8839F00C68CF8 /* CrashCatcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrashCatcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		379236EF13C883A000C68CF8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		379236F113C883A000C68CF8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		379236F313C883A000C68CF8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		379236F713C883A000C68CF8 /* CrashCatcher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CrashCatcher-Info.plist"; sourceTree = "<group>"; };
+		379236F913C883A000C68CF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		379236FB13C883A000C68CF8 /* CrashCatcher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CrashCatcher-Prefix.pch"; sourceTree = "<group>"; };
+		379236FC13C883A000C68CF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		379236FE13C883A000C68CF8 /* CrashCatcherAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrashCatcherAppDelegate.h; sourceTree = "<group>"; };
+		379236FF13C883A000C68CF8 /* CrashCatcherAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrashCatcherAppDelegate.m; sourceTree = "<group>"; };
+		3792370213C883A000C68CF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		3792370413C883A000C68CF8 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		3792370513C883A000C68CF8 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		3792370713C883A000C68CF8 /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+		3792370913C883A000C68CF8 /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		3792370A13C883A000C68CF8 /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		3792370C13C883A000C68CF8 /* FlipsideView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlipsideView.xib; sourceTree = "<group>"; };
+		3792371413CB34D200C68CF8 /* DevLog.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DevLog.xib; sourceTree = "<group>"; };
+		3792371513CB34D200C68CF8 /* DevLogForm-iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "DevLogForm-iPad.xib"; sourceTree = "<group>"; };
+		3792371713CB34D200C68CF8 /* DevLogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DevLogViewController.h; sourceTree = "<group>"; };
+		3792371813CB34D200C68CF8 /* DevLogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DevLogViewController.m; sourceTree = "<group>"; };
+		3792371F13CB3A9300C68CF8 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		3792372213CB402300C68CF8 /* 512Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 512Icon.png; sourceTree = "<group>"; };
+		3792372313CB402300C68CF8 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		3792372413CB402300C68CF8 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		3792372513CB402300C68CF8 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		3792372613CB402300C68CF8 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		3792372713CB402300C68CF8 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		3792372813CB402300C68CF8 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		379236E813C8839F00C68CF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3792372013CB3A9300C68CF8 /* MessageUI.framework in Frameworks */,
+				379236F013C883A000C68CF8 /* UIKit.framework in Frameworks */,
+				379236F213C883A000C68CF8 /* Foundation.framework in Frameworks */,
+				379236F413C883A000C68CF8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		379236E013C8839F00C68CF8 = {
+			isa = PBXGroup;
+			children = (
+				379236F513C883A000C68CF8 /* CrashCatcher */,
+				379236EE13C883A000C68CF8 /* Frameworks */,
+				379236EC13C8839F00C68CF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		379236EC13C8839F00C68CF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				379236EB13C8839F00C68CF8 /* CrashCatcher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		379236EE13C883A000C68CF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3792371F13CB3A9300C68CF8 /* MessageUI.framework */,
+				379236EF13C883A000C68CF8 /* UIKit.framework */,
+				379236F113C883A000C68CF8 /* Foundation.framework */,
+				379236F313C883A000C68CF8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		379236F513C883A000C68CF8 /* CrashCatcher */ = {
+			isa = PBXGroup;
+			children = (
+				3792371313CB34D200C68CF8 /* DevLog */,
+				379236FE13C883A000C68CF8 /* CrashCatcherAppDelegate.h */,
+				379236FF13C883A000C68CF8 /* CrashCatcherAppDelegate.m */,
+				3792370113C883A000C68CF8 /* MainWindow.xib */,
+				3792370413C883A000C68CF8 /* MainViewController.h */,
+				3792370513C883A000C68CF8 /* MainViewController.m */,
+				3792370713C883A000C68CF8 /* MainView.xib */,
+				3792370913C883A000C68CF8 /* FlipsideViewController.h */,
+				3792370A13C883A000C68CF8 /* FlipsideViewController.m */,
+				3792370C13C883A000C68CF8 /* FlipsideView.xib */,
+				3792372113CB402300C68CF8 /* Icons */,
+				379236F613C883A000C68CF8 /* Supporting Files */,
+			);
+			path = CrashCatcher;
+			sourceTree = "<group>";
+		};
+		379236F613C883A000C68CF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				379236F713C883A000C68CF8 /* CrashCatcher-Info.plist */,
+				379236F813C883A000C68CF8 /* InfoPlist.strings */,
+				379236FB13C883A000C68CF8 /* CrashCatcher-Prefix.pch */,
+				379236FC13C883A000C68CF8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3792371313CB34D200C68CF8 /* DevLog */ = {
+			isa = PBXGroup;
+			children = (
+				3792371413CB34D200C68CF8 /* DevLog.xib */,
+				3792371513CB34D200C68CF8 /* DevLogForm-iPad.xib */,
+				3792371713CB34D200C68CF8 /* DevLogViewController.h */,
+				3792371813CB34D200C68CF8 /* DevLogViewController.m */,
+			);
+			path = DevLog;
+			sourceTree = "<group>";
+		};
+		3792372113CB402300C68CF8 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				3792372213CB402300C68CF8 /* 512Icon.png */,
+				3792372313CB402300C68CF8 /* Icon-72.png */,
+				3792372413CB402300C68CF8 /* Icon-Small-50.png */,
+				3792372513CB402300C68CF8 /* Icon-Small.png */,
+				3792372613CB402300C68CF8 /* Icon-Small@2x.png */,
+				3792372713CB402300C68CF8 /* Icon.png */,
+				3792372813CB402300C68CF8 /* Icon@2x.png */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		379236EA13C8839F00C68CF8 /* CrashCatcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3792371013C883A000C68CF8 /* Build configuration list for PBXNativeTarget "CrashCatcher" */;
+			buildPhases = (
+				379236E713C8839F00C68CF8 /* Sources */,
+				379236E813C8839F00C68CF8 /* Frameworks */,
+				379236E913C8839F00C68CF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrashCatcher;
+			productName = CrashCatcher;
+			productReference = 379236EB13C8839F00C68CF8 /* CrashCatcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		379236E213C8839F00C68CF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = MeachWare;
+			};
+			buildConfigurationList = 379236E513C8839F00C68CF8 /* Build configuration list for PBXProject "CrashCatcher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 379236E013C8839F00C68CF8;
+			productRefGroup = 379236EC13C8839F00C68CF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				379236EA13C8839F00C68CF8 /* CrashCatcher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		379236E913C8839F00C68CF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				379236FA13C883A000C68CF8 /* InfoPlist.strings in Resources */,
+				3792370313C883A000C68CF8 /* MainWindow.xib in Resources */,
+				3792370813C883A000C68CF8 /* MainView.xib in Resources */,
+				3792370D13C883A000C68CF8 /* FlipsideView.xib in Resources */,
+				3792371913CB34D200C68CF8 /* DevLog.xib in Resources */,
+				3792371A13CB34D200C68CF8 /* DevLogForm-iPad.xib in Resources */,
+				3792372913CB402300C68CF8 /* 512Icon.png in Resources */,
+				3792372A13CB402300C68CF8 /* Icon-72.png in Resources */,
+				3792372B13CB402300C68CF8 /* Icon-Small-50.png in Resources */,
+				3792372C13CB402300C68CF8 /* Icon-Small.png in Resources */,
+				3792372D13CB402300C68CF8 /* Icon-Small@2x.png in Resources */,
+				3792372E13CB402300C68CF8 /* Icon.png in Resources */,
+				3792372F13CB402300C68CF8 /* Icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		379236E713C8839F00C68CF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				379236FD13C883A000C68CF8 /* main.m in Sources */,
+				3792370013C883A000C68CF8 /* CrashCatcherAppDelegate.m in Sources */,
+				3792370613C883A000C68CF8 /* MainViewController.m in Sources */,
+				3792370B13C883A000C68CF8 /* FlipsideViewController.m in Sources */,
+				3792371C13CB34D200C68CF8 /* DevLogViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		379236F813C883A000C68CF8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				379236F913C883A000C68CF8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3792370113C883A000C68CF8 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3792370213C883A000C68CF8 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3792370E13C883A000C68CF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3792370F13C883A000C68CF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3792371113C883A000C68CF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrashCatcher/CrashCatcher-Prefix.pch";
+				INFOPLIST_FILE = "CrashCatcher/CrashCatcher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3792371213C883A000C68CF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrashCatcher/CrashCatcher-Prefix.pch";
+				INFOPLIST_FILE = "CrashCatcher/CrashCatcher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		379236E513C8839F00C68CF8 /* Build configuration list for PBXProject "CrashCatcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3792370E13C883A000C68CF8 /* Debug */,
+				3792370F13C883A000C68CF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3792371013C883A000C68CF8 /* Build configuration list for PBXNativeTarget "CrashCatcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3792371113C883A000C68CF8 /* Debug */,
+				3792371213C883A000C68CF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 379236E213C8839F00C68CF8 /* Project object */;
+}
